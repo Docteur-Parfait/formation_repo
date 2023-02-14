@@ -1,0 +1,76 @@
+.container{
+    /* width: 100%; */
+    height: 100%;
+    padding: 100px 200px 100px 200px ;
+}
+
+.logo>img{
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.menu ul{
+    display: flex;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(22, 21, 21);
+}
+
+.menu a:hover{
+    color: RGB(13, 110, 253);
+}
+
+.gif-container img{
+    width: 300px;
+}
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+}
+
+.site-body{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label>h1>span:first-child{
+    color: RGB(13, 110, 253);
+}
+
+.label>h1>span:last-child{
+    color: rgba(216,27,96,255);
+}
+
+.label>h1, .label>h2{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.center button{
+    background-color: rgba(216,27,96,255);
+    padding: 10px;
+    border: rgba(216,27,96,255);
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
